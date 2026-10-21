@@ -5,7 +5,6 @@
 ## 目录
 
 - `qtacademy/`：实训基地
-  - [人力资源](./qtacademy/human.md)
   - [组织](./qtacademy/org.md)
 
 ## 许可
