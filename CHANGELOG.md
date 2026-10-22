@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+### 移除
+
+- 《组织》移交实训基地第二大脑：`qtacademy/org.md` 移入 `quanttide-profile-of-training-base` 的 `default/org.md`，本仓不再保留。
+
 ### 新增
 
 - 初始化仓库。
