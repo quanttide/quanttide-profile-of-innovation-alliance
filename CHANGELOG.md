@@ -20,3 +20,4 @@
 - 档案来源：实训基地日志 2026-10-21。
 - 迁入 qtrecurit 招聘政策档案（自 qtadmin CLI 数据目录）：policy.yaml、recruitment_policies.yaml、policy_summary.md，已脱敏（人名改写为秘书处/一次离职事件）
 - 新增 strategy/open-vs-close.md：开源与闭源的战略判定（两步判定、三种形态、不对称的账、意图边界、转速表）
+- 新增 strategy/acquisition.md：获客战略（判定标准、三条路径线索、与开源底料的关系）
