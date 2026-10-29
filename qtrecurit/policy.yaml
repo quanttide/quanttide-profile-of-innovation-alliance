@@ -1,0 +1,171 @@
+segments:
+- _source: 1. 实训可以用量潮课堂这个邮箱去统一管理，然后跟招聘分开。2. 我们还是需要时不时的去补充一些骨干，然后还是要保留一个招聘的渠道，但是它就是重要程度逐渐要让位给我们课堂这块。
+  policy:
+    clauses:
+    - level: must
+      rule: 实训期间使用量潮课堂邮箱统一管理
+    - level: must
+      rule: 实训邮箱与招聘邮箱分离
+    - level: should
+      rule: 招聘渠道保留但重要程度逐步让位于课堂
+    codeability: 4
+    domain: 招聘与实训管理
+    execution:
+    - 为实训生分配量潮课堂邮箱
+    - 确保实训邮箱与招聘邮箱独立使用
+    - 逐步降低招聘渠道的使用频率，转向课堂邮箱
+    name: 邮箱管理政策
+  status: evolving
+  status_reason: 政策表述明确但存在模糊之处，如'逐步让位'未定义具体时间或程度，且'重要程度'难以量化，需进一步细化才能完全编码。
+- _source: 对标浙理工的课程体系，按照秘书处的要求，招聘会分两个等级。
+  policy:
+    clauses:
+    - level: should
+      rule: 对标浙理工的课程体系
+    - level: must
+      rule: 按照秘书处的要求，招聘分为两个等级
+    codeability: 2
+    domain: 人力资源
+    execution:
+    - 参考浙理工的课程体系进行对标
+    - 将招聘岗位分为两个等级
+    name: 招聘分级政策
+  status: draft
+  status_reason: 政策表述模糊，未明确两个等级的具体定义和划分标准，仅提及初步想法，尚未形成可执行的具体规则。
+- _source: 这篇调研问卷侧重于考察我们关心的责任心等能力。……同时也是一份初步契约，在后续考核和正式录用的时候可以继续确认。以一次离职事件为主要教训深入分析，我们得到了关于如何前置识别的关键教训。
+  policy:
+    clauses:
+    - level: must
+      rule: 使用结构化的开放性访谈式问卷
+    - level: must
+      rule: 前置调研候选人责任心等能力
+    - level: should
+      rule: 作为初步契约和后续考核依据
+    codeability: 3
+    domain: 招聘与选拔
+    execution:
+    - 设计结构化开放性访谈问卷，涵盖责任心等能力维度
+    - 在正式招聘流程前对候选人进行访谈
+    - 将访谈结果作为初步契约的一部分
+    - 将访谈结果作为后续考核的参考依据
+    name: 前置调研候选人责任心等能力
+  status: evolving
+  status_reason: 政策表述较为概括，未明确具体操作细节，如问卷设计标准、访谈流程、评估方法等，需要进一步细化才能编码执行。
+- _source: 我今天晚上出 招聘明天8:00定时发 然后小红书的我也准备着。
+  policy:
+    clauses:
+    - level: may
+      rule: 招聘公告可在晚上准备
+    - level: should
+      rule: 早上8点定时发布以获取更多曝光
+    codeability: 4
+    domain: 招聘
+    execution:
+    - 晚上准备招聘公告内容
+    - 设置定时发布，在早上8点自动发布
+    name: 招聘公告发布时机策略
+  status: settled
+  status_reason: 政策表述明确，无歧义，可直接执行，但具体操作细节（如发布平台）未提及，需微调后可编码。
+- _source: 因为我感觉招聘量开始上来了，批量直接发一封邮件会比较省事，这样就不用挑岗位了，比之前批量化还简单。
+  policy:
+    clauses:
+    - level: should
+      rule: 当招聘量增加时，使用批量邮件统一沟通
+    codeability: 4
+    domain: 招聘流程
+    execution:
+    - 识别招聘量增加的时机
+    - 准备统一的邮件模板
+    - 向候选人批量发送邮件
+    name: 批量邮件沟通政策
+  status: evolving
+  status_reason: 政策表述模糊，未明确招聘量增加的具体阈值、批量邮件的具体内容或发送频率，需要进一步细化才能编码。
+- _source: 整个体系的核心设计思想是，把课堂和招聘同时放在同一个实训基地去进行整合。……面试考核用实践课资料考核，试用期考核用生产实习考核；前置培训，培训资源计价，贡献超出培训才通过；合同统一为实训合同。
+  policy:
+    clauses:
+    - level: must
+      rule: 课堂与招聘整合在同一实训基地
+    - level: must
+      rule: 通过实践课形式考核
+    - level: should
+      rule: 前置培训资源
+    - level: should
+      rule: 以贡献抵消培训成本
+    - level: must
+      rule: 作为筛选机制
+    codeability: 3
+    domain: 招聘与培训
+    execution:
+    - 建立实训基地，将课堂学习与招聘流程结合
+    - 设计实践课程作为考核方式
+    - 提前准备培训资源
+    - 允许学员通过贡献（如项目参与）抵消培训成本
+    - 利用该机制筛选合适候选人
+    name: 课堂与招聘整合实训基地政策
+  status: evolving
+  status_reason: 政策表述较为概括，具体实施细节（如贡献如何量化、考核标准等）未明确，处于演进阶段。
+- _source: 招聘标准不低于现有人员，可以慢慢挑选。
+  policy:
+    clauses:
+    - level: must
+      rule: 招聘标准应不低于现有人员水平
+    - level: may
+      rule: 可慢慢挑选合适人选
+    codeability: 3
+    domain: 人力资源
+    execution:
+    - 明确现有人员水平作为基准
+    - 制定不低于该基准的招聘标准
+    - 允许延长招聘周期以挑选合适人选
+    name: 招聘标准不低于现有人员水平
+  status: evolving
+  status_reason: 表述模糊，'现有人员水平'和'慢慢'缺乏具体量化标准，需进一步明确。
+- _source: 就是我们在招聘上是甲方，我们应该考虑我们需要什么，而不是他们需要什么。
+  policy:
+    clauses:
+    - level: should
+      rule: 在招聘中作为甲方，应关注自身需求而非候选人需求。
+    codeability: 3
+    domain: 招聘
+    execution:
+    - 明确自身招聘需求，以自身需求为导向进行招聘。
+    name: 甲方招聘需求优先原则
+  status: evolving
+  status_reason: 该政策表述较为笼统，未明确具体操作细节，且'关注自身需求'与'候选人需求'的权衡标准不清晰，属于演进中的模糊表述。
+- _source: 还有就是要确定新的那个招聘的工作章程，就是我们要有明确的白纸黑字跟那个招聘者去约定我们怎么考核。
+  policy:
+    clauses:
+    - level: must
+      rule: 招聘需有明确的工作章程
+    - level: must
+      rule: 以白纸黑字与招聘者约定考核方式
+    codeability: 4
+    domain: 招聘管理
+    execution:
+    - 制定明确的工作章程
+    - 将考核方式以书面形式与招聘者约定
+    name: 招聘工作章程约定政策
+  status: settled
+  status_reason: 政策表述明确，无歧义，可直接执行，但具体细节（如章程内容、考核方式）需进一步补充。
+- _source: 我们在完成初步邮件调研选拔后，将剩下的人放入实训基地进行不超过两周的考核，采取微型创业模式。……我们提供所有背景资料和工作意图，让他们自由选择个人或组队，我们看结果和过程，保留自由裁量权否定不良行为。
+  policy:
+    clauses:
+    - level: must
+      rule: 候选人通过微型创业模式进行考核
+    - level: must
+      rule: 提供资源和场域
+    - level: must
+      rule: 候选人自由选择个人或组队解决真实业务问题
+    - level: must
+      rule: 以结果和行为作为录用依据
+    codeability: 3
+    domain: 招聘与选拔
+    execution:
+    - 设计微型创业项目，明确业务问题
+    - 提供必要的资源（如资金、工具、导师）和场域（如办公空间、线上平台）
+    - 允许候选人选择个人或组队参与
+    - 评估候选人的结果（如产出、绩效）和行为（如团队协作、领导力）
+    - 根据评估结果决定录用
+    name: 微型创业考核政策
+  status: evolving
+  status_reason: 政策表述较为宏观，缺乏具体细节（如考核周期、评估标准、资源范围等），需要进一步明确才能编码执行。
