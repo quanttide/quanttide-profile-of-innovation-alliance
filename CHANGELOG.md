@@ -7,7 +7,7 @@
 ### 移除
 
 - 《人才孵化器》生长路径移除准入问卷条目：问卷流程废弃，投递后直接进群，筛选全部发生在选题制考核内部
-- 《组织》移交实训基地第二大脑：`qtacademy/org.md` 移入 `quanttide-profile-of-training-base` 的 `default/org.md`，本仓不再保留。：`qtacademy/org.md` 移入 `quanttide-profile-of-training-base` 的 `default/org.md`，本仓不再保留。
+- 《组织》移交实训基地第二大脑：`qtacademy/org.md` 移入 `quanttide-profile-of-training-base` 的 `default/org.md`，本仓不再保留。
 
 ### 新增
 
