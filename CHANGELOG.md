@@ -18,6 +18,7 @@
 - 初始化仓库。
 - 新增《组织》（`qtacademy/org.md`）：如何构建组织（选人与留人），以及主动报名、提名、投票的选人流程。
 - 迁入《考核方式》（`qtrecurit/assessment.md`）：自 quanttide-human 档案仓 `qttech/recruitment/assessment.md` 平移。改口径两处（问卷进群 → 投递后直接进群；评估依据去掉「问卷」），其余未动。
+- 迁入《报名方式与简历、求职信要求》（`qtrecurit/application.md`）：自 quanttide-human 档案仓 `qttech/recruitment/application.md` 平移，零改动。
 
 ### 变更
 
