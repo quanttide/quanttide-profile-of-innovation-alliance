@@ -21,4 +21,4 @@
 - 迁入 qtrecurit 招聘政策档案（自 qtadmin CLI 数据目录）：policy.yaml、recruitment_policies.yaml、policy_summary.md，已脱敏（人名改写为秘书处/一次离职事件）
 - 新增 strategy/open-vs-close.md：开源与闭源的战略判定（两步判定、三种形态、不对称的账、意图边界、转速表）
 - 新增 strategy/acquisition.md：获客战略（判定标准、三条路径线索、与开源底料的关系）
-- 新增 strategy/vc-talent-selection.md：风投式人才选拔（期权式投入、逐轮加注、合同与贡献抵消两层确权、放弃直接招聘、规则不用人）
+- 新增 strategy/talent-incubator.md：人才孵化器（贡献抵消的账、生长路径、合同与贡献抵消两层确权、放弃直接招聘、招聘即撞墙体验）
